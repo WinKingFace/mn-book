@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-input": "/miniprogram_npm/iview-weapp/input/index",
+    "i-button": "/miniprogram_npm/iview-weapp/button/index",
+    "i-card": "/miniprogram_npm/iview-weapp/card/index"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "i-card": "/miniprogram_npm/iview-weapp/card/index"
+  }
+}

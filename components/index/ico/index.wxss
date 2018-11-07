@@ -1,0 +1,29 @@
+.container{
+  display: inline-block;
+}
+.ico-box{
+  position:relative;
+  left: 70rpx;
+  top: 20rpx;
+
+}
+
+.i-img{
+  height: 90rpx;
+  width: 90rpx;
+  margin-left: 11rpx;
+}
+
+.i-text{
+  position:relative;
+  top: 50rpx;
+  right: 78rpx;
+  width: 100%;
+  font-size: 32rpx;
+  color: gray;
+  line-height: 1.6em;
+  text-decoration: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

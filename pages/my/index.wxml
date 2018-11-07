@@ -1,0 +1,17 @@
+<view class='mImg'>
+  <view>
+    <i-avatar src="https://i.loli.net/2017/08/21/599a521472424.jpg" size="large"></i-avatar>
+  <text class='mText'>931912343</text>
+  <text class='mText1'> >  </text>
+  </view>
+</view>
+
+
+<van-cell-group>
+  <van-cell title="我的订单" icon="pending-orders" is-link url="/pages/my-order/index" />
+  <van-cell title="收货地址" icon="location" is-link url="/pages/my-address/index" />
+  <van-cell title="会员卡" icon="card" is-link url="/pages/my-card/index" />
+  <van-cell title="优惠券" icon="coupon" is-link url="/pages/my-coupon/index" />
+  <van-cell title="积分" icon="exchange" is-link url="/pages/my-integral/index" />
+  <van-cell title="意见反馈" icon="edit" is-link url="/pages/opinion/index" />
+</van-cell-group>

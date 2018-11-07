@@ -1,0 +1,13 @@
+<i-panel title="基础用法">
+    <i-input value="{{ value1 }}" title="收货人" autofocus placeholder="名字" />
+    <i-input value="{{ value2 }}" type="number" title="联系电话" placeholder="请输入手机号" />
+    <i-input value="{{ value3 }}" type="textarea" title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
+</i-panel>
+<i-button bind:click="handleClick" type="success" shape="circle" size="small">添加地址</i-button>
+
+
+
+<i-card title="手机号码" extra="17600666406" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">邹方成</view>
+    <view slot="footer">安徽省六安市寿县双庙</view>
+</i-card>

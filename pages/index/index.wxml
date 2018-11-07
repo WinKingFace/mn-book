@@ -1,0 +1,45 @@
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:search="onSearch">
+  <view slot="action" bind:tap="onSearch">搜索</view>
+</van-search>
+
+<view>
+  <image class='topImg' src='http://img.weiye.me/zcimgdir/album/file_58ecef920ad36.png'></image>
+  <view style="height:100px">
+    <z-ico />
+  </view>
+</view>
+
+<view class='iDiscountBox'>
+  <view class='iBox'>
+    <view class='iBoxNew'>
+      <image class='IboxImg' src='http://img.weiye.me/zcimgdir/album/file_58eedfd99a2de.png' />
+      <text style="color:#999999">最新优惠券</text>
+    </view>
+    <view>
+      <text class='iBoxText'>立即领取</text>
+    </view>
+  </view>
+</view>
+
+<view class='mIco'>
+  <view class='mBox'>
+    <view class='mBoxIco'>
+      <text class='mBoxText'>智慧工具</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='mIco'>
+  <view class='mBox'>
+    <view class='mBoxIco1'>
+      <text class='mBoxText'>课外阅读</text>
+    </view>
+  </view>
+</view>
+
+
+<!-- <van-notice-bar
+  left-icon="https://img.yzcdn.cn/1.png"
+  text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。"
+/> -->

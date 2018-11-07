@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-card": "/miniprogram_npm/iview-weapp/card/index",
+    "van-tab": "/miniprogram_npm/vant-weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/vant-weapp/tabs/index"
+  }
+}

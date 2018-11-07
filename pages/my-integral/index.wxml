@@ -1,0 +1,12 @@
+<view>
+  <view class='box'>
+    <i-avatar size="small">积</i-avatar>
+    <view>现有积分/总积分</view>
+    <view>积分规则</view>
+  </view>
+</view>
+
+<i-tabs current="{{ current }}" bindchange="handleChange">
+    <i-tab key="tab1" title="收入"></i-tab>
+    <i-tab key="tab2" title="支出"></i-tab>
+</i-tabs>

@@ -1,0 +1,46 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="全部">
+    <van-card num="2" tag="标签" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" >
+    <view slot="footer">
+      <van-button size="mini">去支付</van-button>
+    </view>
+    </van-card>  
+
+    <van-card num="2" tag="标签" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" >
+    <view slot="footer">
+      <van-button size="mini">去评价</van-button>
+    </view>
+    </van-card>  
+
+  </van-tab>
+  <van-tab title="待付款">
+    <van-card num="2" tag="标签" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" >
+    <view slot="footer">
+      <van-button size="mini">去支付</van-button>
+    </view>
+    </van-card>  
+  </van-tab>
+  <van-tab title="待发货">
+    <van-card num="2" tag="标签" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" >
+    <view slot="footer">
+      <van-button size="mini">提醒发货</van-button>
+    </view>
+    </van-card>  
+  </van-tab>
+  <van-tab title="待收货">
+    <van-card num="2" tag="标签" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" >
+    <view slot="footer">
+      <van-button size="mini">确认收货</van-button>
+      <van-button size="mini">查看物流</van-button>
+
+    </view>
+    </van-card>  
+  </van-tab>
+  <van-tab title="待评价">
+    <van-card num="2" tag="标签" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" >
+    <view slot="footer">
+      <van-button size="mini">去评价</van-button>
+    </view>
+    </van-card>  
+  </van-tab>
+</van-tabs>

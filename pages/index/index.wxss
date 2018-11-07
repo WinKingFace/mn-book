@@ -1,0 +1,68 @@
+.topImg{
+    height: 168px;
+    width: 100%;
+}
+
+.iDiscountBox{
+  padding: 5px 15px;
+  box-sizing: border-box;
+  font-size:28rpx;
+  border-bottom:1rpx solid #f2f2f2;
+  border-top:1rpx solid #f2f2f2
+}
+
+.iBox{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+}
+
+.iBoxNew{
+  display:flex;
+  align-items:center;
+}
+
+.IboxImg{
+  height:25px;
+  width:25px;
+  margin-right:10px;
+}
+
+.iBoxText{
+  border:1rpx solid #8bc34a;
+  color:#8bc34a
+}
+
+.mBox{
+  width:640rpx;
+  margin:0 auto
+}
+
+.mBoxIco{
+  background:url(http://img.weiye.me/zcimgdir/album/file_58ed9d10ac910.png) center center;
+  background-size:cover;
+  height:35px;
+  width:100%;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.mBoxIco1{
+  background:url(http://img.weiye.me/zcimgdir/album/file_58ed930494458.png) center center;
+  background-size:cover;
+  height:35px;
+  width:100%;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.mBoxText{
+  margin-left:40rpx;
+  color:#8bc34a;
+  font-size:32rpx
+}

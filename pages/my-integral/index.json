@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-avatar": "/miniprogram_npm/iview-weapp/avatar/index",
+    "i-tab": "/miniprogram_npm/iview-weapp/tab/index",
+    "i-tabs": "/miniprogram_npm/iview-weapp/tabs/index"
+  }
+}

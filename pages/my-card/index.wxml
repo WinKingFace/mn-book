@@ -1,0 +1,5 @@
+<i-card title="土豪会员卡" extra="白金" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">到期时间</view>
+    <view slot="footer">2017/1/1-2018/1/1</view>
+</i-card>
+

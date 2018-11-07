@@ -1,0 +1,6 @@
+<view class="container" wx:for="{{icoImg}}" wx:for-index="idx">
+   <solt class='ico-box'>
+      <image class='i-img' wx:if="{{idx % 2 == 0}}"  src='{{item}}'/>
+      <text class='i-text' wx:else>{{item}}</text>
+   </solt>
+</view>

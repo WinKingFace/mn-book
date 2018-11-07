@@ -1,0 +1,27 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="全部">  
+    <i-card title="$100" extra="满减" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">使用说明</view>
+        <view slot="footer">只能在图书区使用,到期时间2018/1/1-2020/1/1</view>
+    </i-card>
+  </van-tab>
+  <van-tab title="未使用">
+    <i-card title="$100" extra="满减" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">使用说明</view>
+        <view slot="footer">只能在图书区使用,到期时间2018/1/1-2020/1/1</view>
+    </i-card>
+  </van-tab>
+  <van-tab title="已使用">
+    <i-card title="$100" extra="满减" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">使用说明</view>
+        <view slot="footer">只能在图书区使用,到期时间2018/1/1-2020/1/1</view>
+    </i-card>
+  </van-tab>
+  <van-tab title="已失效">
+    <i-card title="$100" extra="满减" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">使用说明</view>
+        <view slot="footer">只能在图书区使用,到期时间2018/1/1-2020/1/1</view>
+    </i-card>
+  </van-tab>
+</van-tabs>
+
