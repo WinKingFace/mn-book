@@ -1,3 +1,12 @@
+<!-- <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="topImg" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper> -->
+
 <view class="container" wx:for="{{icoImg}}" wx:for-index="idx">
    <solt class='ico-box'>
       <image class='i-img' wx:if="{{idx % 2 == 0}}"  src='{{item}}'/>

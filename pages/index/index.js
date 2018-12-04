@@ -5,15 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      'http://img.zhichiwangluo.com/zcimgdir/album/file_5a790b0f870da.png',
-      'http://img.zhichiwangluo.com/zcimgdir/album/file_5a790b0f4533c.png',
-      'http://img.zhichiwangluo.com/zcimgdir/album/file_5a790b0f55f23.png'
-    ],
-    indicatorDots: true,
-    autoplay: true,
-    interval: 5000,
-    duration: 1000
+
   },
 
   /**

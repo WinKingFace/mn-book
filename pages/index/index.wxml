@@ -1,9 +1,9 @@
-<van-search value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:search="onSearch">
+<!-- <van-search value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:search="onSearch">
   <view slot="action" bind:tap="onSearch">搜索</view>
-</van-search>
-
+</van-search> -->
+<z-swiper />
 <view>
-  <image class='topImg' src='http://img.weiye.me/zcimgdir/album/file_58ecef920ad36.png'></image>
+  <!-- <image class='topImg' src='http://img.weiye.me/zcimgdir/album/file_58ecef920ad36.png'></image> -->
   <view style="height:100px">
     <z-ico />
   </view>
@@ -24,16 +24,26 @@
 <view class='mIco'>
   <view class='mBox'>
     <view class='mBoxIco'>
-      <text class='mBoxText'>智慧工具</text>
+      <text class='mBoxText'>产品展示</text>
     </view>
   </view>
 </view>
+
+<z-box />
 
 
 <view class='mIco'>
   <view class='mBox'>
     <view class='mBoxIco1'>
-      <text class='mBoxText'>课外阅读</text>
+      <text class='mBoxText'>品牌产品</text>
+    </view>
+  </view>
+</view>
+
+<view class='mIco'>
+  <view class='mBox'>
+    <view class='mBoxIco1'>
+      <text class='mBoxText'>企业合作</text>
     </view>
   </view>
 </view>

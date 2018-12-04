@@ -1,0 +1,9 @@
+.box{
+  border: 1px solid #eee;
+  
+}
+
+.img{
+  width:100%;
+  background-color:black;
+}

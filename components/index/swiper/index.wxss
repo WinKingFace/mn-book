@@ -1,0 +1,33 @@
+swiper{
+  width: 100%;
+}
+ 
+.swiper-box{
+  position: relative;
+  width: 100%;
+}
+.dots{ 
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  bottom: 20rpx; 
+  display: flex; 
+  justify-content: center; 
+} 
+.dots .dot{ 
+  margin: 0 8rpx; 
+  width: 14rpx; 
+  height: 14rpx; 
+  background: #fff; 
+  border-radius: 8rpx; 
+  transition: all .6s; 
+} 
+.dots .dot.active{ 
+  width: 24rpx; 
+  background: gray; 
+}
+ 
+swiper image {
+  width: 100%;
+  height: 100%;
+}

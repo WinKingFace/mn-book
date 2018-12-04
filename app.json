@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/my/index",
-    "pages/circle/index",
+    "pages/class/index",
     "pages/my-info/index",
     "pages/my-order/index",
     "pages/opinion/index",
@@ -26,14 +26,14 @@
         "selectedIconPath": "/static/images/home@dis.png"
       },
       {
-        "pagePath": "pages/circle/index",
-        "text": "教育圈",
-        "iconPath": "/static/images/circle.png",
-        "selectedIconPath": "/static/images/circle@dis.png"
+        "pagePath": "pages/class/index",
+        "text": "分类",
+        "iconPath": "/static/images/class.png",
+        "selectedIconPath": "/static/images/class@dis.png"
       },
       {
         "pagePath": "pages/my/index",
-        "text": "我的",
+        "text": "关于",
         "iconPath": "/static/images/my.png",
         "selectedIconPath": "/static/images/my@dis.png"
       }

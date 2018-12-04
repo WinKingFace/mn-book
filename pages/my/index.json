@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "van-cell": "/miniprogram_npm/vant-weapp/cell/index",
-    "i-avatar": "/miniprogram_npm/iview-weapp/avatar/index"
+    "i-avatar": "/miniprogram_npm/iview-weapp/avatar/index",
+    "z-swiper": "/components/index/swiper/index"
   }
 }

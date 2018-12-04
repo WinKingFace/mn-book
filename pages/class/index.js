@@ -1,4 +1,4 @@
-// pages/circle/index.js
+// pages/class/index.js
 Page({
 
   /**
